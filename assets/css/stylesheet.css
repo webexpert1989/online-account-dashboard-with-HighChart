@@ -1,0 +1,559 @@
+﻿@charset "utf-8";
+/* CSS Document */
+.popover 
+{
+	max-width:none !important; 
+}
+.popover-content {
+    width: 600px !important;
+}
+.popover-content {
+    padding: 0 !important;
+}
+.timePickerWrapper.popover.fade.right.in {
+    top: 0 !important;
+}
+.graph img {
+    display: inline-block;
+} 
+.row 
+{
+	padding:0;
+	margin:0;
+}
+.form {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: -moz-use-text-color -moz-use-text-color #ccc;
+    border-image: none;
+    border-style: none none solid;
+    border-width: 0 0 1px;
+    box-shadow: none;
+    margin: 0;
+    padding: 4px;
+}
+.btn.btn.btn-floating.btn-danger.btn-sm.icon.wb-help.helpMargin.helpBut {
+    margin-bottom: 17px !important;
+    position: relative !important;
+}
+.nav.navbar-right {
+    padding-right: 32px !important;
+}
+.modal-body {
+    padding:0px;
+    position: relative;
+}
+.button {
+    text-align: center;
+}
+.number
+{ color:#666;}
+
+.number p {
+    font-size: 13px;
+}
+.green
+{ color:#5cab6d;}
+.brdr {
+    border-right: 1px solid #ccc;
+}
+.red 
+{ color:#c0404e;}
+
+.border
+{
+	border-top:1px solid #ccc;
+	border-bottom:1px solid #ccc;
+}
+.sprint {
+    background: #5cab6d none repeat scroll 0 0;
+    padding: 10px;
+    text-align: center;
+	color:#fff;
+}
+.sprint img
+{display:inline-flex;}
+.sprint2 {
+    background: #299159 none repeat scroll 0 0;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+.sprint2 img
+{display:inline-flex;}
+.sprint3 {
+    background: #5cab6d none repeat scroll 0 0;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+.sprint3 img
+{display:inline-flex;}
+.sprint4 {
+    background: #8e242f none repeat scroll 0 0;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+.sprint4 img
+{display:inline-flex;}
+.sprint5 {
+    background: #8e242f none repeat scroll 0 0;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+.sprint5 img
+{display:inline-flex;}
+.at {
+    background: #c0404e none repeat scroll 0 0;
+    color: #fff;
+    padding: 65px;
+    text-align: center;
+}
+.at img
+{display:inline-flex;}
+.mobile {
+    background: #8e242f none repeat scroll 0 0;
+    color: #fff;
+    padding: 65px;
+    text-align: center;
+}
+.mobile img
+{display:inline-flex;}
+.optimum {
+    background: #c0404e none repeat scroll 0 0;
+    color: #fff;
+    padding: 65px;
+    text-align: center;
+}
+.optimum img
+{display:inline-flex;}
+.diret img
+{display:inline-flex;}
+.diret {
+    background: #299159 none repeat scroll 0 0;
+    color: #fff;
+    padding: 77px;
+    text-align: center;
+}
+.zone {
+    background: #61a574 none repeat scroll 0 0;
+    color: #fff;
+    padding: 77px;
+    text-align: center;
+}
+.zone img
+{display:inline-flex;}
+#color  a {
+    color: #666 !important;
+    font-size: 13px;
+}
+.zero
+{
+	padding:0;
+	margin:0;
+}
+.bg
+{
+	background:#f7f7f7;
+	padding:20px;
+	padding-bottom:80px;
+}
+.list {
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.text {
+    /*padding: 25px;*/
+}
+.text > h2 {
+    font-size: 39px;
+}
+.img
+{
+	width:100%;
+}
+.back {
+    background: #ccc none repeat scroll 0 0;
+    border-radius: 20px;
+    color: #666;
+    padding: 3px 10px;
+}
+.padding {
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+.border-bottom
+{
+	border-bottom:1px solid #ccc;
+}
+.month ul {
+    display: inline-flex;
+    list-style: outside none none;
+    padding: 0;
+}
+.month li {
+    padding-right: 20px;
+}
+.right-border {
+    border-right: 1px solid #ccc;
+}
+.icon1 {
+    font-size: 23px;
+    padding: 24px;
+}
+.month li {
+    padding-right: 20px;
+}
+.month h4 {
+    margin: 0;
+    padding-top: 16px;
+}
+/*listable*/
+body{font-family:'open sans';}
+
+
+
+
+
+#accordion-first .accordion-heading .accordion-toggle {
+    display: block;
+    cursor: pointer;
+    padding: 5px 0px !important;
+    color: #222;
+    outline: medium none !important;
+    text-decoration: none;
+}
+
+
+
+#accordion-first .accordion-heading .accordion-toggle > em {
+    border: 1px solid #666;
+    color: #666;
+    font-size: 14px;
+    height: 20px;
+    line-height: 20px;
+    margin-right: 10px;
+    text-align: center;
+    width: 20px;
+}
+.fa-check {
+    background:#3bca82 none repeat scroll 0 0;
+    border: medium none !important;
+    color: #fff !important;
+    height:16px;	
+}
+.accordion-toggle.active {
+    background: #fff none repeat scroll 0 0 !important;
+    padding: 10px !important;
+}
+.accordion-toggle.collapsed {
+    background: #fff none repeat scroll 0 0;
+}
+.agent {
+    display: flex;  
+}
+.agent p
+{
+	 margin: 0;
+    padding-left: 10px;
+}
+.accordion-body > ul {
+    list-style: outside none none;
+}
+.percent {
+    color: #3bca82;
+    float: right;
+    position: relative;
+    right: 14px;
+    text-align: right;
+}
+.accordion-body li {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 33px;
+}
+.percent1{
+    
+	color:#3bca82; 
+}
+.fa-exclamation {
+    background: #c0404e none repeat scroll 0 0;
+    border: medium none !important;
+    color: #fff !important;
+    padding: 2px 4px;
+}
+.notable {
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.background
+{
+	background:#fff;
+}
+.total > ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+.total {
+    padding: 10px;
+}
+.total > h3 {
+    font-size: 37px;
+    margin: 25px;
+}
+.per {
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.total li {
+    padding: 3px;
+}
+.row
+{
+	padding:0;
+}
+/*listable*/
+.logo > h3 {
+    color: #122f55;
+    margin: 0;
+    padding: 0;
+}
+.nav.navbar-right {
+    display: inline-flex;
+    margin: 0;
+    padding: 0;
+}
+.nav-bg {
+    background: #102e54 none repeat scroll 0 0;
+}
+.navbar-nav li a {
+    color: #fff !important;
+}
+.nav1-bg {
+    background: #102e54 none repeat scroll 0 0 !important;
+    padding: 10px;
+}
+.btn.btn.btn-floating.btn-danger.btn-sm.icon.wb-help.helpMargin.helpBut {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 10px;
+    vertical-align: middle;
+}
+.navbar-nav a:hover {
+    color: #fff !important;
+	background:#6c8fc2;
+	/*border-bottom:4px solid #102c53;*/
+}
+.navbar-nav li {
+    border: medium none !important;
+}
+.navbar-nav a:focus {
+    color: #fff !important;
+	background:#1b568e;
+	/*border-bottom:4px solid #102c53;*/
+}
+.light-green
+{
+	background:#5cab6d;
+}
+.dark-green
+{
+	background:#299159;
+}
+.dark-red
+{
+	background:#8e242f ;
+}
+.light-red
+{ background:#c0404e;}
+.text > ul {
+    padding: 0;
+}
+.text li {
+    display: inline-flex;
+    list-style: outside none none;
+}
+.circle {
+    background: #000 none repeat scroll 0 0;
+    border-radius: 50px;
+    padding: 25px;
+}
+.circle > p {
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+.circle img {
+    display: inline-flex;
+}
+.line img {
+    display: inline-flex;
+    position: relative;
+    top: 30px;
+}
+.number1 p {
+    font-size: 13px;
+	color:#666;
+}
+.number1 > h2 {
+    margin: 0;
+}
+.number1 {
+    position: relative;
+    top: 25px;
+}
+.none a
+{
+	background:none !important;
+	color:#fff !important; 
+}
+/*tooltip*/
+/*For tooltip box*/
+.tooltip {text-decoration: none; border-bottom:1px dotted #36c;color: #36c; outline: none; }
+#mcTooltip 
+{
+    line-height:20px;
+    border-width: 2px;   
+    color:#000;
+    padding:10px;
+    font-size: 12px;
+    font-family: Verdana, Arial;
+    border-radius:3px;
+    background-color:rgba(255,255,255,0.9);
+    background-image:url(bg_ptn.png);
+}
+
+
+/* For hyperlink within tooltip */
+#mcTooltip a { color:#6CF; }
+
+/*Close button. Available when sticky or overlay has been set to true, or is on touch-enabled devices. */
+#mcttCloseButton
+{ 
+    width:18px;
+    height:18px;
+    margin-right:4px;
+    margin-top:4px;
+    /*background:black;*/  
+}
+/*Close button X symbol*/
+#mcttCloseButton:after {
+    font:normal 38px/18px arial, sans-serif;
+    color:#999;
+    top:0;left:-2px;
+}
+
+/*Give the close button a bigger size on smaller devices*/
+@media only screen and (max-width: 736px) {
+    #mcttCloseButton {
+        width:28px;
+        height:28px;
+    }
+    #mcttCloseButton:after {
+        font-size:48px;
+        line-height:28px;
+    }    
+} 
+
+/* Useful when overlay has been set to true or 1 in JS */
+#mcOverlay 
+{
+    background-color: rgba(0,0,0,0.5);
+    display:none;top:0;left:0;width:100%;height: 100%;overflow:visible;z-index:4; 
+}
+#mcTooltip img {border:0;vertical-align:middle;}
+
+/*The settings below should remain unchanged*/
+#mcTooltipWrapper {position:absolute;visibility:hidden;overflow:visible;z-index:9999999999; top:395.583px}
+#mcTooltip {
+    float: left;
+	top:10px !important;
+    overflow: hidden;
+    position: relative;
+    right: 17px !important;
+
+}
+.mcTooltipInner 
+ {
+    height: 90px;
+    left: 10px;
+    opacity: 1;
+    position: absolute;
+    top: 0 !important;
+    transition: all 300ms ease 0s;
+    width: 700px !important;
+}
+#mcTooltip {
+    height: 90px;
+    transition: none 0s ease 0s ;
+    width: 700px !important;
+}
+
+/*compatible with bootstrap*/
+#mcTooltip, #mcTooltip div {box-sizing:content-box;}
+
+ .column { float:left; padding:0 0;}
+ .rolling ul
+ {
+	 padding:0; 
+	 list-style:none;
+	 display:inline-flex;
+	}
+	.tool h4
+	{
+		margin:0;
+		padding:0;
+		font-weight:bold;
+		font-size:12px;
+	}
+@media (max-width:480px) and (min-width:240px)
+{
+	
+.number1 {
+    position: relative;
+    top: 0px;
+}
+.right-border {
+    border-right: 0px solid #ccc;
+}
+.text > ul {
+    padding: 13px;
+}
+}
+@media (max-width:980px) and (min-width:768px)
+{
+	.at {
+    background: #c0404e none repeat scroll 0 0;
+    color: #fff;
+    padding: 65px 30px;
+    text-align: center;
+}
+.mobile {
+    background: #8e242f none repeat scroll 0 0;
+    color: #fff;
+    padding: 65px 30px;
+    text-align: center;
+}
+}
+.dropdown-menu > li > a{
+    line-height:20px !important;
+}
+.bootstrap-select.btn-group .dropdown-menu li a span.text
+{
+    display:inline !important;
+}
+
+.bootstrap-tagsinput{
+    overflow:scroll; border:solid 1px #eee !important; height:85px;
+}
+#addQuestion .modal-body .col-sm-12.pull-right{margin-bottom:20px;}
+#criterion_text{
+    height:85px;
+}
+#addQuestion .modal-body .form-group .example{margin-top:0; margin-bottom:0;}
+#addQuestion .modal-body{padding:10px;}

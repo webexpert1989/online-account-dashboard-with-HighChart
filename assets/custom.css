@@ -1,0 +1,92 @@
+.page-login {
+  background: url('images/login-bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.table-header-actions {
+    text-align: right;
+    margin-bottom: 25px;
+}
+
+body.dashboard {
+    background-color: #f1f4f5;
+    padding-top: 70px;
+}
+
+.form-horizontal .control-label {
+  text-align: left;
+}
+
+.list-unstyled.example label {
+  cursor: pointer;
+}
+
+.hidden-star-sort, .hidden-input {
+    display: none;
+}
+
+.floor-agents {
+        height: 70px;
+	vertical-align: inherit!important;
+}
+
+.align-inherit {
+    vertical-align: inherit;
+}
+
+.bob-keywords div.label {
+    margin-right: 5px;
+}
+
+.btn.item-status {
+    cursor: default;
+}
+a:hover {
+    text-decoration: none;
+    background:#EDEDED;
+}
+.navbar-brand a:hover
+{
+	background:#fff;
+}
+.loader.loader-grill {
+    display: block;
+}
+.height-180 {
+    height: 180px;
+}
+
+.modal-dark .modal-header {
+    background-color: #142D52;
+}
+
+.modal-dark .modal-header h4.modal-title, .modal-dark .close {
+    color: #fff;
+    opacity: 1;
+}
+#set-default-product-form select {
+    color: #000;
+}
+#set-default-product-form {
+    margin: 0;
+}
+
+.ranked-list-config-checkboxes label {
+    padding-left: 5px;
+    vertical-align: middle;
+}
+
+.ranked-list-config-checkbox-wrap {
+    display: inline-block;
+    width: 28%;
+}
+
+.ranked-list-config-checkboxes {
+    padding-top: 12px;
+}
+
+.dropdown-backdrop {
+	display: none!important;
+}
+/*inner-code*/

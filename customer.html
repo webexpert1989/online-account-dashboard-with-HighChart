@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Customer Insight</title>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui" />
+    
+	<!-- --libraries-- -->	
+	<!-- jQuery -->
+	<script type = "text/javascript" src = "./assets/lib/jquery/jquery.js"></script>
+	<script type = "text/javascript" src = "./assets/lib/jquery/jquery-migrate.min.js"></script>
+
+	<!-- Bootstrap -->
+	<link rel = "stylesheet" type = "text/css" href = "./assets/lib/bootstrap/bootstrap.css"/>
+	<script type = "text/javascript" src = "./assets/lib/bootstrap/bootstrap.min.js"></script>
+	<link rel = "stylesheet" type = "text/css" href = "./assets/lib/bootstrap/bootstrap-select.min.css"/>
+	<script type = "text/javascript" src = "./assets/lib/bootstrap/bootstrap-select.min.js"></script>
+    
+    <!-- HighChart -->
+    <script src="./assets/lib/highchart/highcharts.js"></script>
+    <script src="./assets/lib/highchart/exporting.js"></script>
+        
+    <!-- custom -->
+    <script src="./assets/js/script.js"></script>
+    <link rel = "stylesheet" type = "text/css" href = "./assets/css/style.css"/>
+    
+</head>
+
+<body>
+    <div id="customer-insight" class="container">
+        <div class="stats-wrap text-center clearfix">
+            <div class="col-md-3 col-sm-3 col-xs-6">
+                <div class="stats-item">
+                    <span id="total-account" class="stats-val">0</span>
+                    <label class="stats-label">Total Accounts</label>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-3 col-xs-6">
+                <div class="stats-item">
+                    <span id="total-calls" class="stats-val">0</span>
+                    <label class="stats-label">Total Calls</label>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-3 col-xs-6">
+                <div class="stats-item">
+                    <span id="total-agents" class="stats-val">0</span>
+                    <label class="stats-label">Total Agents</label>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-3 col-xs-6">
+                <div class="stats-item">
+                    <span id="resource-efficiency" class="stats-val">0%</span>
+                    <label class="stats-label">Resource Efficiency</label>
+                </div>
+            </div>
+        </div>
+        <div class="chart-group-wrap clearfix">
+            <div class="col-md-6 form-wrap clearfix">
+                <div class="form-title">
+                    <span>Performance Improvement</span>
+                </div>
+                <div class="form-body">
+                    <div class="select-wrap">
+                        <select id="performance-compare" class="selectpicker">
+                            <option value="today">Today</option>
+                            <option value="month">Last Month</option>
+                            <option value="quarter">Last Quarter</option>
+                            <option value="year">Last Year</option>
+                        </select>
+                    </div>
+                    
+                    <div class="col-md-6 col-sm-6">
+                        <div class="section-wrap section-chart-wrap">
+                            <span class="section-title chart-header">Historical</span>
+                            <div id="chart-historical" class="section-chart"></div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6">
+                        <div class="section-wrap section-chart-wrap">
+                            <span class="section-title chart-header">Current</span>
+                            <div id="chart-current-compare" class="section-chart"></div>
+                        </div>
+                    </div>
+                    
+                    <!--<div class="col-md-12">
+                        <div class="section-wrap">
+                            <div id="chart-prescription" class="section-chart"></div>
+                        </div>
+                    </div>-->
+                </div>
+            </div>
+            <div class="split-form"></div>
+            <div class="col-md-6 form-wrap clearfix">
+                <div class="form-title">
+                    <span>Resource Optimization</span>
+                </div>
+                <div class="form-body">
+                    <div class="select-wrap">
+                        <input type="button" id="merge" class="btn btn-primary" value="Calculate Resource Adjustments"/>
+                    </div>
+                    
+                    <div class="merge-wrap clearfix">
+                        <div class="col-md-6 col-sm-6">
+                            <div class="section-wrap section-chart-wrap">
+                                <span class="section-title chart-header">Current</span>
+                                <div id="chart-current" class="section-chart"></div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-6">
+                            <div class="section-wrap section-chart-wrap">
+                                <span class="section-title chart-header">Prescribed</span>
+                                <div id="chart-predicted" class="section-chart"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="compare-wrap">
+                            <div class="section-wrap">
+                                <div id="compare-current-predicted" class="section-chart"></div>
+                                <ul id="prescription-list"></ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+    
+</html>

@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" class="no-js css-menubar" lang="en">
+<head>
+    <title>Rankminer</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui" />
+    <meta name="description" content="bootstrap admin template" />
+    <meta name="author" content="" />
+    <link rel="apple-touch-icon" href="assets/images/apple-touch-icon.png" />
+    <link rel="shortcut icon" href="assets/images/favicon.ico" />
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="assets/css/bootstrap.css" />
+    <link rel="stylesheet" href="assets/css/bootstrap-extend.css" />
+    <link rel="stylesheet" href="assets/css/site.css" />
+    <link rel="stylesheet" href="assets/css/override.css" />
+	<link rel="stylesheet" href="assets/css/stylesheet.css" />
+    <link rel="stylesheet" href="assets/css/fonts.css" />
+	<script src="assets/vendor/modernizr/modernizr.js"></script>
+	<script src="assets/vendor/jquery/jquery.js"></script>
+    <script src="assets/vendor/bootstrap/bootstrap.js"></script>
+        
+	<link rel = "stylesheet" type = "text/css" href = "./assets/lib/bootstrap/bootstrap-select.min.css"/>
+	<script type = "text/javascript" src = "./assets/lib/bootstrap/bootstrap-select.min.js"></script>
+    
+    <link rel = "stylesheet" type = "text/css" href = "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    
+    <!-- HighChart -->
+    <script src="./assets/lib/highchart/highcharts.js"></script>
+    <script src="./assets/lib/highchart/exporting.js"></script>
+    
+	<script src="assets/js/core.js"></script>
+    <script src="assets/js/site.js"></script>
+        
+    <!-- custom -->
+    <script src="./assets/js/script.js"></script>
+    <link rel = "stylesheet" type = "text/css" href = "./assets/css/style.css"/>
+    
+	<script src="assets/scripts.js" type="text/javascript"></script>
+    
+    
+</head>
+<body class="dashboard">
+<nav class="navbar horizontal-menu navbar-fixed-top navbarDesktop nav-bg"><div class="navbar-inner">
+                <div class="navbar-brand "><a href="Dashboard.aspx" class="logo"><img src="assets/images/logo.png" alt="" class="hidden-xs img-responsive" style="width: 180px;"  />
+                        <img src="assets/images/rm-logo-color.png" alt="" class="visible-xs" style="width: 35px;" /></a></div><ul class="navbar-nav nav-bg">
+						<li class="dashboard"><a href="SnapShot.aspx" style="background-color:#6c8fc2"><i class="icon wb-grid-4"></i><span class="title">Executive Dashboard</span></a></li>
+						<li class="dashboard"><a href="Dashboard.aspx"><i class="icon wb-grid-4"></i><span class="title">Automated QA</span></a></li>
+						
+						<li class="dropdown current-queue QueSelect"><a class="navbar-avatar dropdown-toggle" data-toggle="dropdown" href="#" aria-expanded="false" data-animation="scale-up" role="button">
+                              <i class="icon wb-list-bulleted"></i>Queue</a><ul class="dropdown-menu" id="color" role="menu">
+							  <li role="presentation"><a href="../Queue.aspx?type=Current"><i class="icon wb-list-bulleted"></i><span class="title">Current Queue-Admin</span></a></li>
+							  <li role="presentation"><a href="../Queue.aspx?type=Flag"><i class="icon wb-list-bulleted"></i><span class="title">Flagged Calls</span></a></li>
+							  <li role="presentation"><a href="../Queue.aspx?type=Current"><i class="icon wb-list-bulleted"></i><span class="title">Current Queue</span></a></li>
+							  <li role="presentation"><a href="../Queue.aspx?type=Past"><i class="icon wb-list-bulleted"></i><span class="title">Past Queue</span></a></li></ul></li>
+							  <li class="logs"><a class="navbar-avatar dropdown-toggle" data-toggle="dropdown" href="#" aria-expanded="false" data-animation="scale-up" role="button">
+                    <i class="icon wb-users"></i><span class="title">Roster Management</span></a><ul class="dropdown-menu" id="color" role="menu">  <li role="presentation">
+
+                    <a href="Floor-agent-roster.aspx"><i class="icon wb-users"></i><span class="title">Floor Agent Roster</span></a>
+                    <a href="QA-reviewer-roster.aspx"><i class="icon wb-eye"></i><span class="title">QA Reviewer Roster</span></a>
+                    <a href="Supervisor-Roster.aspx"><i class="icon wb-users"></i><span class="title">Supervisor Roster</span></a>
+                    <a href="../view_Users.aspx"><i class="icon wb-users"></i><span class="title">Client/Product Admin</span></a>
+                    </li></ul></li>
+					<li class="logs"><a href="../Client_Management.aspx"><i class="icon wb-book"></i><span class="title">Clients</span></a></li>
+					<li  class="dropdown current-queue"><a class="navbar-avatar dropdown-toggle" data-toggle="dropdown" href="#" aria-expanded="false" data-animation="scale-up" role="button">
+                    <i class="icon wb-grid-4"></i>Scorecards</a><ul class="dropdown-menu" id="color" role="menu"><li role="presentation">
+                    <a href="ScorecardCategories.aspx"><i class="icon wb-list-bulleted"></i><span class="title">Categories</span></a></li>
+                    <li role="presentation"><a href="questions.aspx"><i class="icon wb-list-bulleted"></i><span class="title">Questions</span>
+                    </a> </li> <li role="presentation"><a href="templates.aspx"><i class="icon wb-list-bulleted"></i><span class="title">Templates</span></a></li>
+					</ul></li> <li class="view-as"><a href="view_as_user.aspx">  <i class="icon wb-eye"></i><span class="title">View as User</span></a></li></ul>
+					</ul>
+					</div><div class="col-lg-2 zero nav1-bg"><ul class="nav navbar-right"><li class="dropdown"><a class="navbar-avatar dropdown-toggle" data-toggle="dropdown" href="#" aria-expanded="false" data-animation="scale-up" role="button">
+                <span class="avatar avatar-online"> <img src="assets/images/user-1.png" alt="..."><i></i></span></a><ul class="dropdown-menu" role="menu"><li role="presentation">
+                <a href="#" role="menuitem">Super Admin (Client Admin (A))</a></li><li class="divider" role="presentation"></li><li role="presentation">
+                <a href="#" role="menuitem" onclick="jQuery('#set-default-product').modal('show');">Change Product</a></li><li class="divider" role="presentation"></li>
+                <li role="presentation"><a href="DiagnosticLogs.aspx?user_id=user" role="menuitem"><i class="icon wb-bell" aria-hidden="true"></i>Alerts (0)</a>
+                </li><li class="divider" role="presentation"></li><li role="presentation"><a href="profile.aspx" role="menuitem"><i class="icon wb-user" aria-hidden="true"></i>Profile</a>
+                </li><li class="divider" role="presentation"></li><li role="presentation"><a href="Login.aspx" role="menuitem"><i class="icon wb-power" aria-hidden="true"></i>Logout</a>
+                </li></ul></li><li> <button class="btn btn btn-floating btn-danger btn-sm icon wb-help helpMargin helpBut" data-target="#examplePositionSidebar" data-toggle="modal" type="button"></button></li>
+                </ul></div></nav>
+					
+	
+    
+    <div id="customer-insight" class="container">
+        <div class="stats-wrap text-center clearfix">
+            <div class="col-md-3 col-sm-3 col-xs-6">
+                <div class="stats-item">
+                    <span id="total-account" class="stats-val">0</span>
+                    <label class="stats-label">Total Accounts</label>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-3 col-xs-6">
+                <div class="stats-item">
+                    <span id="total-calls" class="stats-val">0</span>
+                    <label class="stats-label">Total Calls</label>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-3 col-xs-6">
+                <div class="stats-item">
+                    <span id="total-agents" class="stats-val">0</span>
+                    <label class="stats-label">Total Agents</label>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-3 col-xs-6">
+                <div class="stats-item">
+                    <span id="resource-efficiency" class="stats-val">0%</span>
+                    <label class="stats-label">Resource Efficiency</label>
+                </div>
+            </div>
+        </div>
+        <div class="chart-group-wrap clearfix">
+            <div class="col-md-6 form-wrap clearfix">
+                <div class="form-title">
+                    <span>Performance Improvement</span>
+                </div>
+                <div class="form-body">
+                    <div class="select-wrap">
+                        <select id="performance-compare" class="selectpicker">
+                            <option value="today">Today</option>
+                            <option value="month">Last Month</option>
+                            <option value="quarter">Last Quarter</option>
+                            <option value="year">Last Year</option>
+                        </select>
+                    </div>
+                    
+                    <div class="col-md-6 col-sm-6">
+                        <div class="section-wrap section-chart-wrap">
+                            <span class="section-title chart-header">Historical</span>
+                            <div id="chart-historical" class="section-chart"></div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6">
+                        <div class="section-wrap section-chart-wrap">
+                            <span class="section-title chart-header">Current</span>
+                            <div id="chart-current-compare" class="section-chart"></div>
+                        </div>
+                    </div>
+                    
+                    <!--<div class="col-md-12">
+                        <div class="section-wrap">
+                            <div id="chart-prescription" class="section-chart"></div>
+                        </div>
+                    </div>-->
+                </div>
+            </div>
+            <div class="split-form"></div>
+            <div class="col-md-6 form-wrap clearfix">
+                <div class="form-title">
+                    <span>Resource Optimization</span>
+                </div>
+                <div class="form-body">
+                    <div class="select-wrap">
+                        <input type="button" id="merge" class="btn btn-primary" value="Calculate Resource Adjustments"/>
+                    </div>
+                    
+                    <div class="merge-wrap clearfix">
+                        <div class="col-md-6 col-sm-6">
+                            <div class="section-wrap section-chart-wrap">
+                                <span class="section-title chart-header">Current</span>
+                                <div id="chart-current" class="section-chart"></div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-6">
+                            <div class="section-wrap section-chart-wrap">
+                                <span class="section-title chart-header">Prescribed</span>
+                                <div id="chart-predicted" class="section-chart"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="compare-wrap">
+                            <div class="section-wrap">
+                                <div id="compare-current-predicted" class="section-chart"></div>
+                                <ul id="prescription-list"></ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <br><br><br>
+<div class="clearfix"></div>
+        <!-- Feedback Modal -->
+        <div class="modal fade" id="examplePositionSidebar" aria-hidden="true" aria-labelledby="examplePositionSidebar" role="dialog" tabindex="-1">
+            <div class="modal-dialog modal-sidebar modal-sm">
+                <div class="modal-content">
+                    <form action="" method="post" id="feedback-form">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">?</span>
+                            </button>
+                            <h4 class="modal-title">Feedback</h4>
+                            <p>Please use this form to provide us with any feedback or questions you may have. We'll review your input and respond as necessary.</p>
+                        </div>
+                        <div class="modal-body">
+                            <div class="feedback-form-msg"></div>
+                            <div class="clear clearfix">&nbsp;</div>
+                            <input type="text" name="feedback_subject" id="feedback_subject" class="form-control" placeholder="Subject">
+                            <br />
+                            <textarea class="form-control" name="feedback_message" id="textareaDefault" rows="10" placeholder="Your Message"></textarea>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="submit" class="btn btn-primary btn-block" onclick="sendFeedback()">Send Message</button>
+                            <button type="button" class="btn btn-dark btn-block" data-dismiss="modal" id="feedbackcancel">Cancel</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!-- End Modal -->
+		
+		
+		
+<footer class="site-footer">
+            <span class="site-footer-legal">� 2016 RankMiner</span>
+            <div class="site-footer-right">
+                
+            </div>
+        </footer>		
+
+
+		
+		
+		<script>
+            (function ($) {
+                "use strict"
+
+                // Accordion Toggle Items
+                var iconOpen = 'fa fa-minus',
+                     iconClose = 'fa fa-plus';
+
+                $(document).on('show.bs.collapse hide.bs.collapse', '.accordion', function (e) {
+                    var $target = $(e.target)
+                    $target.siblings('.accordion-heading')
+                    .find('em').toggleClass(iconOpen + ' ' + iconClose);
+                    if (e.type == 'show')
+                        $target.prev('.accordion-heading').find('.accordion-toggle').addClass('active');
+                    if (e.type == 'hide')
+                        $(this).find('.accordion-toggle').not($target).removeClass('active');
+                });
+
+            })(jQuery);
+
+        </script>
+
+</body>
+
+</html>
